@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.header .ac-gn-content {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.header .ac-gn-content .ac-gn-list {
+    margin: 0 -10px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header .ac-gn-content .ac-gn-list li {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-gn-link {
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-apple {
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-1.svg);
+    background-position: center center;
+    width: 16px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-mac {
+    background-size: 26px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-2.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.85714em;
+    max-width: 44.2px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-ipad {
+    background-size: 27px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-3.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.92857em;
+    max-width: 45.9px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-iphone {
+    background-size: 44px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-4.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.14286em;
+    max-width: 74.8px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-watch {
+    background-size: 40px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-5.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.85714em;
+    max-width: 68px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-tv {
+    background-size: 18px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-6.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.28571em;
+    max-width: 30.6px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-music {
+    background-size: 37px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-7.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.64286em;
+    max-width: 62.9px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-support {
+    background-size: 52px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/svgexport-8.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.71429em;
+    max-width: 88.4px;
+}
+
+.header .ac-gn-content .ac-gn-list li .ac-search {
+    background-position: 10px 0;
+    background-size: 18px 88px;
+    background-repeat: no-repeat;
+    background-image: url(../img/image_large_1-1.svg);
+    background-position: center center;
+    width: 18px;
+}
