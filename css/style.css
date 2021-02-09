@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('fonts/FontsFree-Net-SFProText-Regular.ttf');
+}
+
 /* Header */
 .header {
     position: fixed;
@@ -17,7 +26,6 @@
     height: 48px;
     max-height: 44px;
     font-size: 17px;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .header .ac-gn-content {
@@ -61,6 +69,10 @@
     white-space: nowrap;
 }
 
+.header .ac-gn-content .ac-gn-list li .ac-gn-link:hover {
+    opacity: 1;
+}
+
 .header .ac-gn-content .ac-gn-list li .ac-apple {
     background-size: 16px 44px;
     background-repeat: no-repeat;
@@ -70,7 +82,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-mac {
-    background-size: 26px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-2.svg);
     background-position: center center;
@@ -81,7 +92,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-ipad {
-    background-size: 27px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-3.svg);
     background-position: center center;
@@ -92,7 +102,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-iphone {
-    background-size: 44px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-4.svg);
     background-position: center center;
@@ -103,7 +112,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-watch {
-    background-size: 40px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-5.svg);
     background-position: center center;
@@ -114,7 +122,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-tv {
-    background-size: 18px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-6.svg);
     background-position: center center;
@@ -125,7 +132,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-music {
-    background-size: 37px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-7.svg);
     background-position: center center;
@@ -136,7 +142,6 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-support {
-    background-size: 52px 44px;
     background-repeat: no-repeat;
     background-image: url(../img/svgexport-8.svg);
     background-position: center center;
@@ -147,10 +152,143 @@
 }
 
 .header .ac-gn-content .ac-gn-list li .ac-search {
-    background-position: 10px 0;
     background-size: 18px 88px;
     background-repeat: no-repeat;
     background-image: url(../img/image_large_1-1.svg);
-    background-position: center center;
     width: 18px;
 }
+
+.header .ac-gn-content .ac-gn-list li .ac-shop {
+    background-size: 17px 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/image_large_1.svg);
+    background-position: center center;
+    width: 17px;
+}
+
+/* HomePage Section */
+
+.hompage-section {
+    width: 100%;
+}
+
+.hompage-section .data-covid {
+    margin-top: 44px;
+    height: 44px;
+    background-color: #0071E3;
+    height: auto;
+}
+
+.hompage-section .data-covid .covid-19 {
+    height: 44px;
+}
+
+.hompage-section .data-covid .covid-19 a{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;;
+    padding: 12px 0;
+    background: #0071E3;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 21px;
+}
+
+.hompage-section .data-covid .covid-19 a::after {
+    content: '>';
+    font-size: 12px;
+    margin-left: 4.2px;
+}
+
+.hompage-section .data-covid .covid-19 a:hover {
+    text-decoration: underline;
+}
+
+.hompage-section .data-shop {
+    height: 64px;
+    background-color: #f5f5f7;
+    text-align: center;
+}
+
+.hompage-section .data-shop .shop-section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.shop-section-content .covid-ribbon-copy {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 12px 0;
+}
+
+.covid-ribbon-copy a {
+    text-decoration: none;
+    color: #0066cc;
+    line-height: 21px;
+}
+
+/* Main */
+
+.main .data-unit {
+    background-color: #fbfbfd;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 12px;
+}
+
+.main .snoopy-tv-4k {
+    background-color: #000;
+    color: #f5f5f7;
+}
+
+.main .snoopy-show {
+    padding-top: 40px;
+    position: relative;
+}
+
+.snoopy-show .div1 {
+    height: 45px;
+    background: url(/img/tv+.png) no-repeat center;
+}
+.snoopy-show .div2 {
+    height: 25px;
+    margin-top:16px;
+    margin-bottom: 15px;
+    background: url(/img/new-series.png) no-repeat center;
+}
+.snoopy-show .div3 {
+    height: 450px;
+    background: url(/img/the-snoopy-show.jpg) no-repeat center;
+}
+
+
+.main .link a {
+    background: #000000;
+    width: 150px;
+    font-weight: 600;
+    color: #ffffff;
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    top: 510px;
+    left: 670px;
+    border-radius: 30px;
+    width: 175px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main .link a:hover {
+    text-decoration: underline;
+}
+
